@@ -1,0 +1,13 @@
+.FooterRow p{
+    text-align: center;
+}
+
+.IconStyle{
+    justify-content: center;
+    display: flex;
+}
+
+.FooterMain{
+    background-color: grey;
+    padding-top: 1%;
+}

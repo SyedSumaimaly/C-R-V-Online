@@ -1,0 +1,9 @@
+.HeroSubSection{
+    background-color: blue;
+    padding: 5%;
+    margin-top: -5%;
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    border-radius: 15px;
+}
