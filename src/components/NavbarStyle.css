@@ -1,3 +1,13 @@
 .NavbarSec{
     padding-bottom: 10vh !important;
 }
+
+.dropdown{
+    border: 1px solid rgb(130, 163, 255);
+    border-radius: 5px;
+    color: white !important;
+}
+
+.logoCss{
+    width: 40%;
+}

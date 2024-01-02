@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .CardMain{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -5,4 +10,33 @@
 
 .CardRow{
     padding-bottom: 2%;
+}
+
+.cardTitle{
+    font-size: 14px;
+}
+
+.cardOne{
+    background: linear-gradient(90deg, rgba(16,16,212,1) 56%, rgba(104,104,255,1) 100%);
+    color: white;
+    border: transparent;
+}
+
+.cardTwo{
+    background: linear-gradient(90deg, rgba(16,235,96,1) 56%, rgba(88,255,149,1) 100%);
+    color: white;
+    border: transparent;
+}
+
+.cardThree{
+    background: linear-gradient(90deg, rgba(224,124,1,1) 56%, rgba(255,190,111,1) 100%);
+    background: linear-gradient(90deg, rgba(235,16,164,1) 56%, rgba(255,57,191,1) 100%);
+    color: white;
+    border: transparent;
+}
+
+.cardFour{
+    background: linear-gradient(90deg, rgba(224,124,1,1) 56%, rgba(255,190,111,1) 100%);
+    color: white;
+    border: transparent;
 }

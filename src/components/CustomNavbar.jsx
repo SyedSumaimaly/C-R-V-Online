@@ -6,15 +6,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavbarStyle.css'
+import logo from '../assets/logo.png'
 
 function CustomNavbar() {
   return (
     <Navbar bg="primary" data-bs-theme="dark" className='NavbarSec'>
       <Container>
-        <Navbar.Brand href="#home">CRV</Navbar.Brand>
-        <Nav className="me-auto">
-        <NavDropdown title="Saira Fatima" id="basic-nav-dropdown">
-              <NavDropdown.Item>blank</NavDropdown.Item>
+        <Navbar.Brand href="#home"><img src={logo} alt="logo" className='logoCss'/></Navbar.Brand>
+        <Nav className="ms-auto">
+        <NavDropdown title="Saira Fatima" id="basic-nav-dropdown" className='dropdown'>
             </NavDropdown>
         </Nav>
       </Container>

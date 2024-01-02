@@ -1,9 +1,17 @@
-.HeroSubSection{
-    background-color: blue;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.HeroSubSection {
+    background: linear-gradient(90deg, rgba(1, 28, 224, 1) 56%, rgba(111, 230, 255, 1) 100%);
     padding: 5%;
-    margin-top: -5%;
+    margin: 0 auto;
+    margin-top: -12%;
     z-index: 1;
+    width: 90%;
     color: white;
     font-size: 28px;
     border-radius: 15px;
 }
+

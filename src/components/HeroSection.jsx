@@ -5,9 +5,9 @@ import CustomCards from './CustomCards';
 
 function HeroSection() {
     return (
-        <Container>
-            <Row>
-                <Col sm={12} className='HeroSubSection'>
+        <Container fluid>
+            <Row className='HeroSecRow'>
+                <Col sm={12} sx={10} className='HeroSubSection'>
                     <p>Account Balance</p>
                     <p>800.00PKR</p>
                 </Col>

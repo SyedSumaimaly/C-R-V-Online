@@ -1,13 +1,28 @@
 .FooterRow p{
     text-align: center;
+    font-size: 12px;
+    padding-bottom: 0%;
 }
 
 .IconStyle{
-    justify-content: center;
-    display: flex;
+    margin: 0 auto;
 }
 
 .FooterMain{
-    background-color: grey;
-    padding-top: 1%;
+    background-color: rgb(231, 231, 231);
+    padding-top: 2%;
+}
+
+.FooterCol{
+    padding: 0%;
+    text-align: center;
+}
+
+.colHome{
+    background-color:rgb(255, 217, 0) ;
+    border-radius: 50%;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
 }
